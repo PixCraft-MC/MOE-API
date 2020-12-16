@@ -11,9 +11,9 @@ router.get('/update/:modId', function(req, res, next) {
 
 module.exports = router;
 
-const MODs = {
-    ATSX: {
-        modid: atsx,
+const Plugins = {
+    MOE: {
+        pluginid: atsx,
         modName: 'ATS Cross',
         version: ()=>{
 
@@ -22,14 +22,4 @@ const MODs = {
 
         }
     },
-    PixSystem: {
-        modid: pixs,
-        modName: 'Pix System',
-        version: ()=>{
-
-        },
-        release: ()=>{
-
-        }
-    }
 }
